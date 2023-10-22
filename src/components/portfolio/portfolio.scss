@@ -9,7 +9,7 @@
     left: 0;
     padding-top: 50px;
     text-align: center;
-    color: orange;
+    color: blueviolet;
     font-size: 36px;
 
     @include mobile {
@@ -95,7 +95,8 @@
         }
 
         button {
-          background-color: orange;
+          background-color: blueviolet;
+          color: white;
           border: none;
           border-radius: 10px;
           padding: 10px;

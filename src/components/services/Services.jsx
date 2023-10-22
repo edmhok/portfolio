@@ -45,12 +45,12 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"blueviolet"}}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"blueviolet"}}>For Your</motion.b> Business.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,12 +60,35 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Stay on top of the latest web development technologies and best practices. Framework includes 
+            HTML5, CSS3, JavaScript, Typescript, ReactJS, NodeJs, Express, MongoDB, MySQL, etc. We utilize the most
+            up-to-date APIs and web services to integrate rich functionality and real-time data into your site. 
+          </p>
+          <button>Go</button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Mobile Development</h2>
+          <p>
+          Build high-performance native apps for iOS and Android using cutting-edge languages like React Native.
+          This allows us to fully leverage the capabilities of each platform. We implement the latest design principles
+          like material design and fluent design to craft intuitive, user-friendly mobile interfaces.
+          </p>
+          <button>Go</button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>UI/UX Design</h2>
+          <p>
+          Utilize the latest in design software and tools like Figma, Sketch, InVision, and Framer
+          to create cutting-edge user experiences. Constantly expanding their skills and tools to 
+          incorporate the latest UI/UX advances into every project.
           </p>
           <button>Go</button>
         </motion.div>
@@ -75,36 +98,10 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Harness cutting-edge design tools and software like Illustrator, Photoshop, 
+          and InDesign to craft brands with high visual impact. Continually educate 
+          ourselves on neuromarketing, behavioral economics, and other advances to 
+          craft brands based on the latest learnings.
           </p>
           <button>Go</button>
         </motion.div>
